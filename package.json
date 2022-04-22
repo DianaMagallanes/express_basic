@@ -4,7 +4,7 @@
   "description": "Ejercicio 6 Semana 3 Backend Launch X",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DianaMagallanes/express_basic/issues"
   },
-  "homepage": "https://github.com/DianaMagallanes/express_basic#readme"
+  "homepage": "https://github.com/DianaMagallanes/express_basic#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
