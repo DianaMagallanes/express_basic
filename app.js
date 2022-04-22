@@ -21,6 +21,13 @@ app.get('/explorersInNode', (req,res) =>{
     res.send(explorer)
 })
 
+
+//query params
+//http://localhost:3000/explorers/diana
+app.get('/explorers/:explorerName', (req,res) =>{
+       res.send(req.params)
+})
+
 //con esto se inicializa app
 app.listen(port,() =>{
     console.log(`Example app listening on port ${port}`)
